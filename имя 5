@@ -1,0 +1,8 @@
+print("Введите Ваше имя:")
+a = input()
+if len(a) < 5:
+    print("Введите Вашу фамилию:")
+    a += input()
+    print(a.upper())
+else:
+    print(a.lower())
