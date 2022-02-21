@@ -1,0 +1,4 @@
+import math
+
+print("Введите целое число больше 500")
+print('%.2f' % (math.sqrt(int(input()))))
